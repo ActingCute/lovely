@@ -1,0 +1,129 @@
+# 01-header
+# menu
+menu:
+    home: /
+    archive: /archives
+    categories: /categories
+    tags: /tags
+    阅读: /reading
+    about: /about
+    gallery: /gallery
+
+# favicon & avtor
+# if the value of avtor is false, the 'say' is optional.
+favicon: /img/favicon.ico
+avtor: /img/logo.png
+say: Welcome 
+    
+# show motto
+motto:
+    enable: true
+
+# post_comment
+comment:
+    enable: true
+
+gitalk:
+    enable: true
+    clientID: 'cc602d1b7485c507cecf' 
+    clientSecret: '36b6af267ae5ba4dfc288899636669aebcf001e6' 
+    repo: haibarai.com/
+    owner: ActingCute酱 
+    admin: ActingCute酱 
+    distractionFreeMode: true
+    #去除 more、index.html、?query=123等格式尾部 
+    hrefTrimend: '#.*$,\\?.*$,index.html$' 
+    
+valine: 
+    enable: false
+    appid: 'DU--'
+    appkey: 'DU--'
+    placeholder: no any!
+    
+livere: 
+    enable: false
+    livere_uid: 'sdd'
+    
+post_count
+leancloud_count:
+    enable: true
+    appid: '3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz'
+    appkey: 'wnNe1tmSxKDauDntkkINB7n0'
+    like_post:
+        enable: true
+    visit_post:
+        enable: true
+    topN_post: 
+        enable: true #param1 for topN_post
+        limit: 10 #param2 for topN_post
+busuanzi_count:
+    enable: true
+
+leancloud_counter_security:
+  enable_sync: true
+  app_id: 3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz  # 同前文的id
+  app_key: wnNe1tmSxKDauDntkkINB7n0 # 同前文的key
+  username: ActingCute酱
+  password: aptx4869CONAN
+
+# post_toc
+post_toc:
+    enable: true
+    katelog: true
+    
+# post_mathJax
+mathjax:
+  enable: true
+  
+# post_code
+code_copy:
+    enable: true
+
+# post_excerpt for index page
+excerpt_cart: 80
+excerpt_pure: 300   
+excerpt_link: true
+
+# 05-FOOTER
+# social
+social:
+    enable: true
+    github: http://github.com/ActingCute
+    weibo: https://weibo.com/97787360/
+    email: mailto:rem486@qq.com
+    #qq: http://github.com/
+    #twitter: http://github.com/
+
+# copyright  
+since: 2019
+cotent_author: ActingCute酱
+
+# 06-OTHERS
+# rss
+rss: /atom.xml
+
+# gallery 
+# format: natural or square
+gallery_format: natural
+# one time to load 4 rows or other count, 0 to load img automatically when scrolling.(0,1,2,3,4,5,6......)
+gallery_limit: 0
+# data url
+gallery_data: gallery/data.json
+
+#when click, emerge heart
+love:
+    enable: false
+
+#totop
+totop:
+    enable: true
+
+# Local search
+# Dependencies: https://github.com/flashlab/hexo-generator-search
+local_search:
+    enable: true
+    # if auto, trigger search by changing input
+    # if manual, trigger search by pressing enter key or search button
+    trigger: auto
+    # show top n results per article, show all results by setting to -1
+    top_n_per_article: -1
