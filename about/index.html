@@ -184,8 +184,6 @@
 <meta name="twitter:description" content="还没想好写什么。。">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="萌萌哒小可爱" type="application/atom+xml">
 
@@ -518,6 +516,13 @@
 
           </div>
           
+
+  
+    <div class="comments" id="comments">
+      
+        <div id="gitment-container"></div>
+      
+    </div>
 
   
 
@@ -859,6 +864,43 @@
 
 
 
+
+
+<!-- LOCAL: You can save these files to your site and update links -->
+    
+        
+        <link rel="stylesheet" href="https://aimingoo.github.io/gitmint/style/default.css">
+        <script src="https://aimingoo.github.io/gitmint/dist/gitmint.browser.js"></script>
+    
+<!-- END LOCAL -->
+
+    
+
+    
+      <script type="text/javascript">
+      function renderGitment(){
+        var gitment = new Gitmint({
+            id: window.location.pathname,
+            owner: 'ActingCute',
+            repo: 'lovely_comment',
+            
+            lang: "en" || navigator.language || navigator.systemLanguage || navigator.userLanguage,
+            
+            oauth: {
+            
+            
+                client_secret: '36b6af267ae5ba4dfc288899636669aebcf001e6',
+            
+                client_id: 'cc602d1b7485c507cecf'
+            }});
+        gitment.render('gitment-container');
+      }
+
+      
+      renderGitment();
+      
+      </script>
+    
 
 
 
@@ -1237,15 +1279,15 @@
     
 
     $(function() {
-      $.get('https://app-router.leancloud.cn/2/route?appId=' + "mtpW2sIlIHeJQk0FGq2ddMVQ-gzGzoHsz")
+      $.get('https://app-router.leancloud.cn/2/route?appId=' + "3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz")
         .done(function ({ api_server }) {
           var Counter = function (method, url, data) {
             return $.ajax({
               method: method,
               url: `https://${api_server}/1.1${url}`,
               headers: {
-                'X-LC-Id': "mtpW2sIlIHeJQk0FGq2ddMVQ-gzGzoHsz",
-                'X-LC-Key': "S8VWUb1LK61DctReez2JM8P1",
+                'X-LC-Id': "3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz",
+                'X-LC-Key': "wnNe1tmSxKDauDntkkINB7n0",
                 'Content-Type': 'application/json',
               },
               data: data,
