@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>萌萌哒小可爱</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://github.com/ActingCute/lovely/"/>
+  <updated>2019-04-11T02:32:52.000Z</updated>
+  <id>https://github.com/ActingCute/lovely/</id>
+  
+  <author>
+    <name>ActingCute酱</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>真爱的颜色一定是蓝色</title>
+    <link href="https://github.com/ActingCute/lovely/2019/03/01/first.html"/>
+    <id>https://github.com/ActingCute/lovely/2019/03/01/first.html</id>
+    <published>2019-03-01T02:30:25.000Z</published>
+    <updated>2019-04-11T02:32:52.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/uploads/bg3.jpg" alt=""></p><hr>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;&lt;img src=&quot;/uploads/bg3.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;hr&gt;
+      
+    
+    </summary>
+    
+      <category term="动漫" scheme="https://github.com/ActingCute/lovely/categories/%E5%8A%A8%E6%BC%AB/"/>
+    
+    
+      <category term="蕾姆" scheme="https://github.com/ActingCute/lovely/tags/%E8%95%BE%E5%A7%86/"/>
+    
+      <category term="艾米莉亚碳" scheme="https://github.com/ActingCute/lovely/tags/%E8%89%BE%E7%B1%B3%E8%8E%89%E4%BA%9A%E7%A2%B3/"/>
+    
+  </entry>
+  
+</feed>
