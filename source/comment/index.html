@@ -1,0 +1,33 @@
+<body>
+    <div id="comment" class="comment" v-loading="loading">
+        <!--vue判断-->
+        <span>
+            {{message}}
+        </span>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+<script>
+    var app = new Vue({
+        el: '#comment',
+        data: {
+            date: "",
+            loading: true,
+            message: 'Hello Vue!'
+        },
+        mounted() {
+            var date = document.referrer;
+            console.log(date)
+        },
+        methods: {
+
+        }
+    })
+</script>
+<style scoped>
+    .comment {
+        min-height: 100px
+    }
+</style>
