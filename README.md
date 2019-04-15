@@ -12,19 +12,16 @@
 
     npm install -g hexo-cli
 
+### pace
+
+    cd themes/next
+    git clone https://github.com/theme-next/theme-next-pace source/lib/pace
+
 #### 直推工具
 
     npm install --save hexo-deployer-git
 
-#### 提交方案
+#### 提交
 
-## 先将源文件/静态文件提交git
-
+    hexo clean
     hexo g -d
-
-## 部署到网站
-
-### 修改deploy
-
-     hexo clean
-     hexo generate --deploy
