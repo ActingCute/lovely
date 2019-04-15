@@ -17,6 +17,10 @@
     cd themes/next
     git clone https://github.com/theme-next/theme-next-pace source/lib/pace
 
+### neat 压缩
+
+    npm install hexo-neat --save
+
 #### 直推工具
 
     npm install --save hexo-deployer-git

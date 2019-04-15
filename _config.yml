@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://github.com/ActingCute/lovely
+url: https://github.com/ActingCute/lovely/blob/master
 root: /
 permalink: :year/:month/:day/:title.html
 permalink_defaults:
@@ -107,13 +107,32 @@ search:
   field: post
   #field: post, page or all（3个可选参数）
 
+# neat_css 压缩
+neat_enable: true
+
+neat_html:
+  enable: true
+  exclude:
+  
+neat_css:
+  enable: true
+  exclude:
+    - '*.min.css'
+
+neat_js:
+  enable: true
+  mangle: true
+  output:
+  compress:
+  exclude:
+    - '*.min.js'
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@www.haibarai.com:/var/repo/blog.git #网站的
-  #repo: git@github.com:ActingCute/lovely.git
+  #repo: git@www.haibarai.com:/var/repo/blog.git #网站的
+  repo: git@github.com:ActingCute/lovely.git #github
   branch: master
 
 backup:
