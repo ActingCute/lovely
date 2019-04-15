@@ -113,7 +113,7 @@ search:
 deploy:
   type: git
   repo: git@www.haibarai.com:/var/repo/blog.git #网站的
-  #repo: git@github.com:ActingCute/lovely.github.io.git
+  #repo: git@github.com:ActingCute/lovely.git
   branch: master
 
 backup:
@@ -121,5 +121,5 @@ backup:
     theme: next
     message: 评论页面
     repository:
-       github: git@github.com:ActingCute/lovely.github.io.git,lovely
-       gitcafe: git@github.com:ActingCute/lovely.github.io.git,back
+       github: git@github.com:ActingCute/lovely.git,lovely
+       gitcafe: git@github.com:ActingCute/lovely.git,back
