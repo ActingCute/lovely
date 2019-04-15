@@ -16,11 +16,15 @@
 
     npm install --save hexo-deployer-git
 
-#### 提交
+#### 提交方案
+
+## 先将源文件/静态文件提交git
+
+    hexo g -d
+
+## 部署到网站
+
+### 修改deploy
 
      hexo clean
      hexo generate --deploy
-
-## 备份工具(记得配置.ssh)
-
-    npm install --save hexo-deployer-git

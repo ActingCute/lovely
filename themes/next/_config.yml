@@ -558,11 +558,11 @@ gitment:
   count: true # Show comments count in post meta area
   lazy: false # Comments lazy loading with a button
   cleanly: false # Hide 'Powered by ...' on footer, and more
-  language: # Force language, or auto switch by theme
-  github_user: # MUST HAVE, Your Github Username
-  github_repo: # MUST HAVE, The name of the repo you use to store Gitment comments
-  client_id: # MUST HAVE, Github client id for the Gitment
-  client_secret: # EITHER this or proxy_gateway, Github access secret token for the Gitment
+  language: en # Force language, or auto switch by theme
+  github_user: ActingCute # MUST HAVE, Your Github Username
+  github_repo: lovely_comment # MUST HAVE, The name of the repo you use to store Gitment comments
+  client_id: cc602d1b7485c507cecf # MUST HAVE, Github client id for the Gitment
+  client_secret: 36b6af267ae5ba4dfc288899636669aebcf001e6 # EITHER this or proxy_gateway, Github access secret token for the Gitment
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
 
@@ -683,8 +683,8 @@ rating:
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
   enable: true
-  app_id: mtpW2sIlIHeJQk0FGq2ddMVQ-gzGzoHsz #<app_id>
-  app_key: S8VWUb1LK61DctReez2JM8P1 #<app_key>
+  app_id: 3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz #<app_id>
+  app_key: wnNe1tmSxKDauDntkkINB7n0 #<app_key>
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
   # If you don't care about security in lc counter and just want to use it directly
   # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
@@ -1078,4 +1078,4 @@ passage_end_tag:
 
 # Online contact 
 daovoice: true
-daovoice_app_id: f10bbdc2
+daovoice_app_id: 5d803fad

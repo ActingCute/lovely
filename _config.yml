@@ -27,7 +27,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-
+  - comment/*
 # Writing
 new_post_name: :title.md # File name of new posts
 default_layout: post
@@ -112,14 +112,14 @@ search:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  #repo: git@www.haibarai.com:/var/repo/blog.git #网站的
-  repo: git@github.com:ActingCute/lovely.github.io.git
+  repo: git@www.haibarai.com:/var/repo/blog.git #网站的
+  #repo: git@github.com:ActingCute/lovely.github.io.git
   branch: master
 
 backup:
     type: git
     theme: next
-    message: first
+    message: 评论页面
     repository:
        github: git@github.com:ActingCute/lovely.github.io.git,lovely
        gitcafe: git@github.com:ActingCute/lovely.github.io.git,back
