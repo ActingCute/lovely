@@ -7,4 +7,4 @@ categories: 动漫
 description:
 ---
 
-![](/uploads/bg3.jpg)
+{% qnimg bg3.jpg alt:re0 'class:' extend:?imageView2/2/w/450 %}

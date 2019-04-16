@@ -21,6 +21,14 @@
 
     npm install hexo-neat --save
 
+### 七牛
+
+    npm install hexo-qiniu-sync --save
+
+#### 生成七牛路径
+
+    hexo g
+
 #### 直推工具
 
     npm install --save hexo-deployer-git
