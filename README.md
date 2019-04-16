@@ -29,6 +29,18 @@
 
     hexo g
 
+### pace
+
+    cd themes\next\lib
+    git clone https://github.com/theme-next/theme-next-pace pace
+
+### 统计
+
+    npm install hexo-leancloud-counter-security --save
+    hexo lc-counter register rem486@qq.com aptx4869CONAN
+
+    参考 https://vonsdite.cn/posts/74d5335f.html
+
 #### 直推工具
 
     npm install --save hexo-deployer-git
