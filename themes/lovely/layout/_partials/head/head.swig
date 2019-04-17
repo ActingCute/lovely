@@ -4,6 +4,9 @@
 <meta name="theme-color" content="{{ theme.android_chrome_color }}">
 
 <script type="text/javascript" src="/js/src/fairyDustCursor.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
 
 {% if theme.needmoreshare2.enable %}
   {% set needmoreshare2_css = url_for(theme.vendors._internal + '/needsharebutton/needsharebutton.css') %}
@@ -141,6 +144,8 @@
     }
   };
 </script>
+
+<div class="lovely-header"></div>
 
 {% if theme.custom_file_path.head %}
   {% set custom_head = '../../../../../' + theme.custom_file_path.head %}
