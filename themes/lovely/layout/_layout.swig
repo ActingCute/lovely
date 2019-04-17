@@ -119,6 +119,5 @@
   {% include '_third-party/bookmark.swig' %}
   {% include '_third-party/copy-code.swig' %}
   {% include '_third-party/pdf.swig' %}
-  <div class="pets">{{ live2d() }}</div>
 </body>
 </html>
