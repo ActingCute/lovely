@@ -6,5 +6,8 @@ type: about
 comments: true
 ---
 
-# 还没想好写什么。。
+# 关于本站
+
+    hexo next qiniu nginx
+
 <br/>

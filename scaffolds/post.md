@@ -3,7 +3,7 @@ title: {{ title }}
 date: {{ date }}
 categories:
 tags: []
-copyright: true
+copyright: false
 description:
 image:
 ---

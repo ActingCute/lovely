@@ -5,7 +5,7 @@
 # Site
 title: 萌萌哒小可爱
 subtitle:
-description: 总有一刻，你比自己想象的要善良
+description: 这是谁的小鹿?真厉害
 keywords:
 author: ActingCute酱
 language: zh-CN
@@ -91,14 +91,24 @@ feed:
 
 # 
 leancloud_counter_security:
-  enable_sync: true
+  enable_sync: false
   app_id: 3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz
   app_key: wnNe1tmSxKDauDntkkINB7n0
   username: rem486@qq.com
   password: aptx4869CONAN
 
+leancloud_visitors:
+  enable: false
+  app_id: 3EVEyNJN1914J93U7ojDiCCC-gzGzoHsz #<app_id>
+  app_key: wnNe1tmSxKDauDntkkINB7n0 #<app_key>
+  # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
+  # If you don't care about security in lc counter and just want to use it directly
+  # (without hexo-leancloud-counter-security plugin), set the `security` to `false`.
+  security: true
+  betterPerformance: false  
+
 ## Themes: https://hexo.io/themes/
-theme: next
+theme: lovely
 
 search:
   path: search.json
@@ -157,8 +167,8 @@ qiniu:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  #repo: git@www.haibarai.com:/var/repo/blog.git #网站的
-  repo: git@github.com:ActingCute/lovely.git #github
+  repo: git@www.haibarai.com:/var/repo/blog.git #网站的
+  #repo: git@github.com:ActingCute/lovely.git #github
   branch: master
 
 backup:
